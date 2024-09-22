@@ -1,4 +1,3 @@
-// components/DynamicChart.tsx
 import React from 'react';
 import {
   Chart as ChartJS,
@@ -48,7 +47,7 @@ const DynamicChart: React.FC<DynamicChartProps> = ({ data, labels }) => {
     maintainAspectRatio: false,
     scales: {
       x: {
-        type: 'category', // Utilisation de l'échelle "category"
+        type: 'category', 
         title: {
           display: true,
           text: 'Time (s)',

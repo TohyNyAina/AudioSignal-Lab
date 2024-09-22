@@ -1,4 +1,3 @@
-// components/RungeKuttaSimulator.tsx
 import React from 'react';
 
 interface RungeKuttaSimulatorProps {
