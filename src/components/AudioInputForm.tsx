@@ -58,7 +58,7 @@ const AudioInputForm: React.FC<AudioInputFormProps> = ({ onGenerate }) => {
         className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition-colors"
         onClick={handleGenerate}
       >
-        Generate Signal
+        Generer le Signale
       </button>
     </div>
   );
