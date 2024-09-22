@@ -17,9 +17,9 @@ const AudioInputForm: React.FC<AudioInputFormProps> = ({ onGenerate }) => {
 
   return (
     <div className="p-6 bg-white rounded-lg shadow-lg max-w-md mx-auto lg:mx-0">
-      <h2 className="text-xl font-bold mb-4">Audio Signal Input</h2>
+      <h2 className="text-xl font-bold mb-4">Formulaire du Signal Audio</h2>
       <div className="mb-4">
-        <label className="block text-gray-700">Frequency (Hz):</label>
+        <label className="block text-gray-700">Frequence (Hz):</label>
         <input
           type="number"
           className="mt-1 p-2 w-full border rounded-md"
@@ -46,7 +46,7 @@ const AudioInputForm: React.FC<AudioInputFormProps> = ({ onGenerate }) => {
         />
       </div>
       <div className="mb-4">
-        <label className="block text-gray-700">Initial Velocity:</label>
+        <label className="block text-gray-700">Velocité Initial:</label>
         <input
           type="number"
           className="mt-1 p-2 w-full border rounded-md"

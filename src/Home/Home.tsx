@@ -34,7 +34,8 @@ const Home: NextPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 p-8">
-      <h1 className="text-2xl font-bold text-center mb-8">Simulation de Signal avec Runge-Kutta</h1>
+      <h1 className="text-5xl font-bold text-center mb-8">Simulation de Signal Audio avec Runge-Kutta</h1>
+
       <div className="flex flex-col lg:flex-row lg:space-x-8 space-y-8 lg:space-y-0">
         {/* Formulaire à gauche */}
         <div className="flex-shrink-0 w-full lg:w-1/3">
