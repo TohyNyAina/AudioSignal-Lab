@@ -1,4 +1,3 @@
-// components/DynamicChart.tsx
 import React from 'react';
 import {
   Chart as ChartJS,
@@ -41,14 +40,14 @@ const DynamicChart: React.FC<DynamicChartProps> = ({ data, labels }) => {
       },
     ],
   };
+  
 
-  // Utilisation des types explicites de Chart.js
   const options = {
     responsive: true,
     maintainAspectRatio: false,
     scales: {
       x: {
-        type: 'category' as const, // Ajout du type 'category' explicite
+        type: 'category' as const, 
         title: {
           display: true,
           text: 'Time (s)',
